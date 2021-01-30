@@ -17,13 +17,26 @@
           <p class="subtitle">書くためのテーマ</p>
         </div>
         <nav class="gnav">
-          <ul>
-            <li class="home"><a href="#">ホーム<i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
-            <li class="page"><a href="#">ページ<i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
-            <li class="typography"><a href="#">タイポグラフィー</a></li>
-            <li class="contact"><a href="#">お問い合わせ</a></li>
+          <ul class="menus">
+            <li class="home menu_multi menu"><a href="#">ホーム<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+              <ul class="menu_second-level">
+                <li><a href="#">→カスタマイズ</a></li>
+              </ul>
+            </li>
+            <li class="page menu_multi menu"><a href="#">ページ<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            <ul class="menu_second-level">
+              <li><a href="#">アイキャッチ画像無しのページ</a></li>
+              <li><a href="#">ページ(全幅テンプレート)</a></li>
+            </ul>
+            </li>
+            <li class="typography menu"><a href="#">タイポグラフィー</a></li>
+            <li class="contact menu"><a href="#">お問い合わせ</a></li>
           </ul>
-          <div class="search"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></div>
+          <div class="search_wrapper">
+            <form action="">
+              <input type="text" class="search_txt" name="search" placeholder="検索">
+            </form>
+          </div>
         </nav>
       </div>
       <div class="header_img"><img src="img/cropped-nicole-honeywill-730102-unsplash.jpg"></div>
